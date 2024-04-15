@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Slab", serif;
+    font-family: "Alfa Slab One", serif
 }
 
 /* ! Navbar */
@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background-color: red;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,3 +51,148 @@
 }
 
 /* ! Navbar */
+/* --------------------------------------------------------------------------------------- */
+/* ? Ana Yapı */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('img/foto\ 2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px 0;
+}
+
+.home .content {
+    max-width: 600px;
+    color: #fff;
+}
+
+.content h2 {
+    font-size: 3em;
+    letter-spacing: .03em;
+}
+
+.content p {
+    margin: 10px 0 40px;
+    font-size: 1.1em;
+    color: #400601;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.content a:hover {
+    background: #1e0b04;
+}
+
+/* ? Ana Yapı */
+.home .wrapper-login {
+    position: relative;
+    width: 440px;
+}
+
+.wrapper-login h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper-login .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 40px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.wrapper-login .remember-forgot {
+    font-size: .9em;
+    color: #fff;
+    margin: -25px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    accent-color: #1e0b1e;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: #1e0b04;
+}
+
+.wrapper-login .btn {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, #1e0b04, #71412a);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.wrapper-login .register-link {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
